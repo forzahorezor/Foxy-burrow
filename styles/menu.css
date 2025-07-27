@@ -11,13 +11,14 @@
 body{
     background-color: #FDE3D1;
     
+    
 }
 /*header*/
 .head{
     background-color:#FDE3D1 ;
     display: flex;
     border:solid 2px #80001D33;
-    
+    z-index: 1;
 
     position: sticky;
     top: 0;
@@ -68,4 +69,211 @@ body{
     width: 35px;
     margin-right: 10px;
     
+}
+/*litle_menu*/
+.l_m{
+    margin-top: 60px;
+    margin-left: 70px;
+   
+}
+.l_m img{
+    margin: 0 5px 0 5px;
+}
+.l_m_a{
+    text-decoration: none;
+    color: #80001D;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-size: 16px;
+}
+/*hits*/
+.hits_btn{
+    padding: 14px 36px 14px 36px;
+    border-radius: 60px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family:"Alegreya Sans SC", sans-serif ;
+    color: #80001D;
+    font-size: 20px;
+    width: 180px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+
+}
+
+.hits_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.active_btn{
+    background-color: #80001D;
+    color:#ffffff ;
+    width: 150px;
+}
+
+/*Menu cards*/
+.menu_first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_card{
+    background-color: #FFF3E9;
+    width: 420px;
+    height: 630px;
+    text-align: center;
+    border-radius: 80px 0 80px 0 ;
+   box-shadow: 9px 12px 34px 21px rgba(38, 59, 75, 0.12);
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+
+.card_img{
+    width: 280px;
+    height: 220px;
+    margin-top: 40px;
+}
+.card_title{
+    margin-top: 30px;
+    font-family:"Alegreya Sans SC", sans-serif ;
+    font-weight: 600;
+    color: #80001D;
+    font-size: 30px;
+}
+.card_subtitle{
+    font-family:"Alegreya Sans SC", sans-serif ;
+    color: #80001D80;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.calories{
+    margin-top: 40px;   
+    font-family: "Alegreya Sans SC", sans-serif ;
+    color: #80001D;
+    font-size:28px ;
+}
+.button_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.menu_btn{
+    margin-top: 20px;
+    width: 320px;
+    height: 60px;
+    padding: 18px 20px 18px 20px;
+    background-color:#FE0000 ;
+    color: #ffffff;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    font-family: "Alegreya Sans SC", sans-serif ;
+    font-size: 26px;
+    border: none;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+.s{
+    margin-right: 23px;
+}
+#s{
+    margin-right: 13px;
+}
+#ss{
+    margin-right: 11px;
+}
+.like img{
+    margin-left: 20px ;
+    position: absolute;
+    left: 290px;
+    top: 35px;
+    width: 30px;
+}
+#salad{
+    font-size: 26px;
+}
+.cards_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.active_line{
+    background-color: #80001D;
+    border: 2px solid #80001D;
+}
+.line{
+    width: 40px;
+    height: 3px;
+    margin-right: 10p;
+    margin-left: 10px;
+    background-color: #80001D4D;
+}
+.arrow_right{
+    margin-left: 25px;
+}
+.arrow_left{
+    margin-right: 25px;
+}
+/*map*/
+.map{
+    margin-top: 70px;
+}
+.map_img{
+    width: 1690px;
+    height: 440px;
+}
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer_box{
+    background-color: #FFF3E9;
+    width: 1500px;
+    height: 280px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    justify-content: space-evenly;
+    display: flex;
+}
+.fot{
+    margin-top: 80px;
+    
+}
+.got{
+    color: #FE0000;
+    font-family:"Alegreya Sans SC", sans-serif  ;
+    font-weight: 400;
+    font-size: 24px;
+}
+.tot{
+    font-family:"Alegreya Sans SC", sans-serif  ;
+    font-weight: 400;
+    color: #80001D;
+    margin-top: 25px;
+    
+}
+.sp{
+    color: #FE0000;
+}
+.wek{
+    font-size: 21px;
+}
+.footer_box a{
+    text-decoration: none;
+    color: #80001D;
 }
