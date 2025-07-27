@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Nokora:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Bonzai' ;
+    src: url(../fonts/bonzai.ttf);
+}
+body{
+    background-color: #FDE3D1;
+    
+}
+/*header*/
+.head{
+    background-color:#FDE3D1 ;
+    display: flex;
+    border:solid 2px #80001D33;
+    
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+
+    animation-name: nav_head;
+    animation-fill-mode: both;
+    animation-timeline: scroll();
+}
+@keyframes nav_head{
+    to {
+        height: 65px;
+    }
+}
+
+
+.logo{
+    margin-left: 60px;
+    width: 160px;
+}
+.nav_links{
+     font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 450px;
+    margin-right: 50px;
+}
+.nav_link{
+    text-decoration: none;
+    color: #80001D;
+    font-size: 20px;
+    margin: 0 14px 0 14px;
+}
+.home{
+    color: #FE0000;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    
+}
+.nav_svg{
+    margin-left: 100px;
+}
+.nav-svg{
+    width: 35px;
+    margin-right: 10px;
+    
+}
