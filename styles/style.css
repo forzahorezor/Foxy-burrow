@@ -277,6 +277,7 @@ body{
     border-radius: 60px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 .u_h_button:hover{
     background-color: #FF5353;
